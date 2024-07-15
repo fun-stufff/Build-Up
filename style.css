@@ -1,3 +1,24 @@
+/* Large screen  */
+@media (max-width: 1400px) {
+    html {
+        font-size: 20px;
+    }
+}
+  
+/* Tablet screen  */
+@media (max-width: 768px) {
+    html {
+        font-size: 15px;
+    }
+    }
+
+/* Mobile screen  */
+@media (max-width: 450px) {
+    html {
+        font-size: 12px;
+    }
+}
+
 *, *::before, *::after {
     font-family: "Open Sans", sans-serif;
     color: white;
